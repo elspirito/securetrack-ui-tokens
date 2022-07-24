@@ -120,6 +120,12 @@
               "type": "color"
             }
           }
+        },
+        "textfield": {
+          "enabled": {
+            "value": "hsla({color.base.hue}, 24%, 64%, 1)",
+            "type": "color"
+          }
         }
       }
     },
