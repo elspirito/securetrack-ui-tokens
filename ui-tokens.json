@@ -139,6 +139,14 @@
           "enabled": {
             "value": "hsla({color.base.hue}, 24%, 64%, 1)",
             "type": "color"
+          },
+          "hover": {
+            "value": "hsla({color.base.hue}, 24%, 64%, 1)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "hsla({color.base.hue}, 24%, 64%, 1)",
+            "type": "color"
           }
         }
       }
