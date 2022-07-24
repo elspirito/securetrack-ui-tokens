@@ -7,6 +7,10 @@
           "type": "color",
           "description": "HUE Value (hsla model)"
         },
+        "background": {
+          "value": "hsla({color.base.hue}, 24%, 96%, 1)",
+          "type": "color"
+        },
         "primary": {
           "80": {
             "value": "hsla({color.base.hue}, 24%, 40%, .8)",
