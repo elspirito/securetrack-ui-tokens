@@ -152,6 +152,34 @@
             "value": "hsla({color.base.hue}, 24%, 64%, 1)",
             "type": "color"
           }
+        },
+        "link": {
+          "primary": {
+            "default": {
+              "value": "hsla({color.base.hue}, 100%, 64%, 1)",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "icon": {
+        "link": {
+          "primary": {
+            "default": {
+              "value": "hsla({color.base.hue}, 100%, 64%, 1)",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "border": {
+        "link": {
+          "primary": {
+            "default": {
+              "value": "hsla({color.base.hue}, 100%, 64%, .24)",
+              "type": "color"
+            }
+          }
         }
       }
     },
