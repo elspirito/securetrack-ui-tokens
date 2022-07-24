@@ -64,6 +64,20 @@
               "type": "color"
             }
           }
+        },
+        "textfield": {
+          "enabled": {
+            "value": "hsla({color.base.hue}, 24%, 92%, 1)",
+            "type": "color"
+          },
+          "hover": {
+            "value": "hsla({color.base.hue}, 24%, 88%, 1)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "hsla({color.base.hue}, 24%, 96%, 1)",
+            "type": "color"
+          }
         }
       },
       "text": {
@@ -135,7 +149,7 @@
         "y": "0",
         "blur": "0",
         "spread": "2",
-        "color": "hsla(300, 80%, 80%, 1)",
+        "color": "hsla({color.base.hue}, 80%, 80%, 1)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
