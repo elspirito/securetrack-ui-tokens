@@ -1,0 +1,139 @@
+{
+  "st-global": {
+    "color": {
+      "base": {
+        "hue": {
+          "value": "220",
+          "type": "color",
+          "description": "HUE Value (hsla model)"
+        },
+        "primary": {
+          "80": {
+            "value": "hsla({color.base.hue}, 24%, 40%, .8)",
+            "type": "color"
+          },
+          "100": {
+            "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "background": {
+        "button": {
+          "primary": {
+            "enabled": {
+              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "hover": {
+              "value": "hsla({color.base.hue}, 24%, 48%, 1)",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "hsla({color.base.hue}, 24%, 32%, 1)",
+              "type": "color"
+            },
+            "focus": {
+              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "hsla({color.base.hue}, 24%, 92%, 1)",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "enabled": {
+              "value": "hsla({color.base.hue}, 32%, 96%, 1)",
+              "type": "color"
+            },
+            "hover": {
+              "value": "hsla({color.base.hue}, 32%, 92%, 1)",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "hsla({color.base.hue}, 32%, 88%, 1)",
+              "type": "color"
+            },
+            "focus": {
+              "value": "hsla({color.base.hue}, 32%, 96%, 1)",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "hsla({color.base.hue}, 24%, 92%, 1)",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "hsla({color.base.hue}, 24%, 24%, 1)",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "hsla({color.base.hue}, 16%, 48%, 1)",
+          "type": "color"
+        },
+        "button": {
+          "primary": {
+            "default": {
+              "value": "hsla({color.base.hue}, 96%, 96%, 1)",
+              "type": "color"
+            },
+            "hover": {
+              "value": "hsla({color.base.hue}, 96%, 96%, 1)",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "hsla({color.base.hue}, 96%, 96%, 1)",
+              "type": "color"
+            },
+            "focus": {
+              "value": "hsla({color.base.hue}, 96%, 96%, 1)",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "hsla({color.base.hue}, 16%, 80%, 1)",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "hover": {
+              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "focus": {
+              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "hsla({color.base.hue}, 16%, 80%, 1)",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "focus": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "2",
+        "color": "hsla(300, 80%, 80%, 1)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "$themes": []
+}
