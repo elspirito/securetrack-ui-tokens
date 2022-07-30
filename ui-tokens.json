@@ -227,47 +227,47 @@
       "type": "boxShadow"
     },
     "text": {
-      "fontFamily": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      },
       "title": {
         "h1": {
           "value": {
-            "fontFamily": "{text.fontFamily}",
+            "fontFamily": "{fontFamily.inter}",
             "fontSize": "26.96",
-            "lineHeight": "110%"
+            "lineHeight": "110%",
+            "fontWeight": "{fontWeight.700}"
           },
           "type": "typography"
         },
         "h2": {
           "value": {
-            "fontFamily": "{text.fontFamily}",
+            "fontFamily": "{fontFamily.inter}",
             "fontSize": "22.46",
-            "lineHeight": "120%"
+            "lineHeight": "120%",
+            "fontWeight": "{fontWeight.700}"
           },
           "type": "typography"
         },
         "h3": {
           "value": {
-            "fontFamily": "{text.fontFamily}",
+            "fontFamily": "{fontFamily.inter}",
             "fontSize": "18.72",
-            "lineHeight": "130%"
+            "lineHeight": "130%",
+            "fontWeight": "{fontWeight.700}"
           },
           "type": "typography"
         },
         "h4": {
           "value": {
-            "fontFamily": "{text.fontFamily}",
+            "fontFamily": "{fontFamily.inter}",
             "fontSize": "15.6",
-            "lineHeight": "140%"
+            "lineHeight": "140%",
+            "fontWeight": "{fontWeight.700}"
           },
           "type": "typography"
         }
       },
       "baseText": {
         "value": {
-          "fontFamily": "{text.fontFamily}",
+          "fontFamily": "{fontFamily.inter}",
           "fontSize": "13",
           "lineHeight": "150%"
         },
@@ -275,11 +275,49 @@
       },
       "smallText": {
         "value": {
-          "fontFamily": "{text.fontFamily}",
+          "fontFamily": "{fontFamily.inter}",
           "fontSize": "10.83",
           "lineHeight": "140%"
         },
         "type": "typography"
+      }
+    },
+    "fontFamily": {
+      "inter": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeight": {
+      "110%": {
+        "value": "110%",
+        "type": "lineHeights"
+      },
+      "120%": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "130%": {
+        "value": "130%",
+        "type": "lineHeights"
+      },
+      "140%": {
+        "value": "140%",
+        "type": "lineHeights"
+      },
+      "150%": {
+        "value": "150%",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeight": {
+      "400": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "Bold",
+        "type": "fontWeights"
       }
     }
   },
