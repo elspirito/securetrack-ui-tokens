@@ -220,11 +220,11 @@
       },
       "text": {
         "primary": {
-          "value": "hsla({color.base.hue}, 24%, 24%, 1)",
+          "value": "{color.base.secondary.100}",
           "type": "color"
         },
         "secondary": {
-          "value": "hsla({color.base.hue}, 8%, 56%, 1)",
+          "value": "{color.base.secondary.64}",
           "type": "color"
         },
         "button": {
