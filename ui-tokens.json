@@ -11,7 +11,7 @@
           "value": "hsla({color.base.hue}, 100%, 100%, 1)",
           "type": "color"
         },
-        "background-copy": {
+        "background": {
           "value": "hsla({color.base.hue}, 24%, 96%, 1)",
           "type": "color"
         },
@@ -203,7 +203,7 @@
             "type": "color"
           },
           "active": {
-            "value": "{color.base.secondary.100}",
+            "value": "{color.base.primary.100}",
             "type": "color"
           }
         },
