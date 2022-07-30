@@ -193,6 +193,62 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    },
+    "text": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "title": {
+        "h1": {
+          "value": {
+            "fontFamily": "{text.fontFamily}",
+            "fontSize": "26.96",
+            "lineHeight": "110%"
+          },
+          "type": "typography"
+        },
+        "h2": {
+          "value": {
+            "fontFamily": "{text.fontFamily}",
+            "fontSize": "22.46",
+            "lineHeight": "120%"
+          },
+          "type": "typography"
+        },
+        "h3": {
+          "value": {
+            "fontFamily": "{text.fontFamily}",
+            "fontSize": "18.72",
+            "lineHeight": "130%"
+          },
+          "type": "typography"
+        },
+        "h4": {
+          "value": {
+            "fontFamily": "{text.fontFamily}",
+            "fontSize": "15.6",
+            "lineHeight": "140%"
+          },
+          "type": "typography"
+        }
+      },
+      "baseText": {
+        "value": {
+          "fontFamily": "{text.fontFamily}",
+          "fontSize": "13",
+          "lineHeight": "150%"
+        },
+        "type": "typography"
+      },
+      "smallText": {
+        "value": {
+          "fontFamily": "{text.fontFamily}",
+          "fontSize": "10.83",
+          "lineHeight": "140%"
+        },
+        "type": "typography"
+      }
     }
   },
   "$themes": []
