@@ -12,6 +12,10 @@
           "type": "color"
         },
         "primary": {
+          "4": {
+            "value": "hsla({color.base.hue}, 24%, 40%, .04)",
+            "type": "color"
+          },
           "8": {
             "value": "hsla({color.base.hue}, 24%, 40%, .08)",
             "type": "color"
