@@ -136,19 +136,19 @@
         "button": {
           "primary": {
             "default": {
-              "value": "hsla({color.base.hue}, 80%, 56%, 1)",
+              "value": "linear-gradient(75deg, hsla({color.base.hue}, 80%, 64%, 1) 0%, hsla({color.base.hue}, 80%, 56%, 1) 100%)",
               "type": "color"
             },
             "hover": {
-              "value": "hsla({color.base.hue}, 80%, 48%, 1)",
+              "value": "linear-gradient(75deg, hsla({color.base.hue}, 72%, 56%, 1) 0%, hsla({color.base.hue}, 72%, 48%, 1) 100%)",
               "type": "color"
             },
             "pressed": {
-              "value": "hsla({color.base.hue}, 80%, 40%, 1)",
+              "value": "linear-gradient(75deg, hsla({color.base.hue}, 72%, 48%, 1) 0%, hsla({color.base.hue}, 72%, 40%, 1) 100%)",
               "type": "color"
             },
             "focus": {
-              "value": "hsla({color.base.hue}, 80%, 56%, 1)",
+              "value": "linear-gradient(75deg, hsla({color.base.hue}, 80%, 64%, 1) 0%, hsla({color.base.hue}, 80%, 56%, 1) 100%)",
               "type": "color"
             },
             "disabled": {
