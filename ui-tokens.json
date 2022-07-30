@@ -52,6 +52,48 @@
             "value": "hsla({color.base.hue}, 24%, 40%, 1)",
             "type": "color"
           }
+        },
+        "secondary": {
+          "4": {
+            "value": "hsla({color.base.hue}, 100%, 64%, .04)",
+            "type": "color"
+          },
+          "8": {
+            "value": "hsla({color.base.hue}, 100%, 64%, .08)",
+            "type": "color"
+          },
+          "16": {
+            "value": "hsla({color.base.hue}, 100%, 64%, .16)",
+            "type": "color"
+          },
+          "24": {
+            "value": "hsla({color.base.hue}, 100%, 64%, .24)",
+            "type": "color"
+          },
+          "40": {
+            "value": "hsla({color.base.hue}, 100%, 64%, .40)",
+            "type": "color"
+          },
+          "48": {
+            "value": "hsla({color.base.hue}, 100%, 64%, .48)",
+            "type": "color"
+          },
+          "56": {
+            "value": "hsla({color.base.hue}, 100%, 64%, .56)",
+            "type": "color"
+          },
+          "64": {
+            "value": "hsla({color.base.hue}, 100%, 64%, .64)",
+            "type": "color"
+          },
+          "80": {
+            "value": "hsla({color.base.hue}, 100%, 64%, .8)",
+            "type": "color"
+          },
+          "100": {
+            "value": "hsla({color.base.hue}, 100%, 64%, 1)",
+            "type": "color"
+          }
         }
       },
       "accent": {
@@ -135,11 +177,11 @@
         },
         "textfield": {
           "default": {
-            "value": "hsla({color.base.hue}, 24%, 92%, 1)",
+            "value": "{color.base.primary.8}",
             "type": "color"
           },
           "hover": {
-            "value": "hsla({color.base.hue}, 24%, 88%, 1)",
+            "value": "{color.base.primary.16}",
             "type": "color"
           },
           "pressed": {
@@ -149,7 +191,11 @@
         },
         "checkbox": {
           "default": {
-            "value": "hsla({color.base.hue}, 24%, 92%, 1)",
+            "value": "{color.base.primary.8}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.base.primary.16}",
             "type": "color"
           }
         }
@@ -210,7 +256,7 @@
           }
         },
         "textfield": {
-          "enabled": {
+          "default": {
             "value": "hsla({color.base.hue}, 24%, 64%, 1)",
             "type": "color"
           },
@@ -226,7 +272,7 @@
         "link": {
           "primary": {
             "default": {
-              "value": "hsla({color.base.hue}, 100%, 64%, 1)",
+              "value": "{color.base.secondary.100}",
               "type": "color"
             }
           }
@@ -236,7 +282,7 @@
         "link": {
           "primary": {
             "default": {
-              "value": "hsla({color.base.hue}, 100%, 64%, 1)",
+              "value": "{color.base.secondary.100}",
               "type": "color"
             }
           }
