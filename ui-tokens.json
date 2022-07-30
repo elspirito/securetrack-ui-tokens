@@ -12,6 +12,34 @@
           "type": "color"
         },
         "primary": {
+          "8": {
+            "value": "hsla({color.base.hue}, 24%, 40%, .08)",
+            "type": "color"
+          },
+          "16": {
+            "value": "hsla({color.base.hue}, 24%, 40%, .16)",
+            "type": "color"
+          },
+          "24": {
+            "value": "hsla({color.base.hue}, 24%, 40%, .24)",
+            "type": "color"
+          },
+          "40": {
+            "value": "hsla({color.base.hue}, 24%, 40%, .40)",
+            "type": "color"
+          },
+          "48": {
+            "value": "hsla({color.base.hue}, 24%, 40%, .48)",
+            "type": "color"
+          },
+          "56": {
+            "value": "hsla({color.base.hue}, 24%, 40%, .56)",
+            "type": "color"
+          },
+          "64": {
+            "value": "hsla({color.base.hue}, 24%, 40%, .64)",
+            "type": "color"
+          },
           "80": {
             "value": "hsla({color.base.hue}, 24%, 40%, .8)",
             "type": "color"
