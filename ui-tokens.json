@@ -195,11 +195,15 @@
         },
         "checkbox": {
           "default": {
-            "value": "{color.base.primary.8}",
+            "value": "{color.base.primary.16}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.base.primary.16}",
+            "value": "{color.base.primary.24}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.base.secondary.100}",
             "type": "color"
           }
         },
