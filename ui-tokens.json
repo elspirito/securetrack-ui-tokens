@@ -217,7 +217,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "hsla({color.base.hue}, 24%, 98%, 1)",
+            "value": "hsla({color.base.hue}, 16%, 98%, 1)",
             "type": "color"
           }
         }
