@@ -116,6 +116,10 @@
             "value": "hsla(45, 92%, 48%, .08)",
             "type": "color"
           },
+          "24": {
+            "value": "hsla(45, 92%, 48%, .24)",
+            "type": "color"
+          },
           "100": {
             "value": "hsla(45, 92%, 48%, 1)",
             "type": "color"
@@ -425,12 +429,25 @@
     "button": {
       "primary": {
         "value": {
-          "color": "#3571e93d",
-          "type": "dropShadow",
           "x": "0",
           "y": "3",
           "blur": "8",
-          "spread": "0"
+          "spread": "0",
+          "color": "{color.base.primary.24}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "counter": {
+      "warning": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "{color.accent.warning.24}",
+          "type": "dropShadow"
         },
         "type": "boxShadow"
       }
