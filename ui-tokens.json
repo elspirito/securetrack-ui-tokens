@@ -296,7 +296,7 @@
         "link": {
           "primary": {
             "default": {
-              "value": "hsla({color.base.hue}, 100%, 64%, .24)",
+              "value": "{color.base.secondary.24}",
               "type": "color"
             }
           }
