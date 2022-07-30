@@ -421,6 +421,10 @@
         "value": "Regular",
         "type": "fontWeights"
       },
+      "500": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
       "700": {
         "value": "Bold",
         "type": "fontWeights"
