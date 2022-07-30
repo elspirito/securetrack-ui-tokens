@@ -89,7 +89,7 @@
       "background": {
         "button": {
           "primary": {
-            "enabled": {
+            "default": {
               "value": "hsla({color.base.hue}, 24%, 40%, 1)",
               "type": "color"
             },
@@ -111,7 +111,7 @@
             }
           },
           "secondary": {
-            "enabled": {
+            "default": {
               "value": "hsla({color.base.hue}, 32%, 96%, 1)",
               "type": "color"
             },
@@ -134,7 +134,7 @@
           }
         },
         "textfield": {
-          "enabled": {
+          "default": {
             "value": "hsla({color.base.hue}, 24%, 92%, 1)",
             "type": "color"
           },
@@ -144,6 +144,12 @@
           },
           "pressed": {
             "value": "hsla({color.base.hue}, 24%, 96%, 1)",
+            "type": "color"
+          }
+        },
+        "checkbox": {
+          "default": {
+            "value": "hsla({color.base.hue}, 24%, 92%, 1)",
             "type": "color"
           }
         }
