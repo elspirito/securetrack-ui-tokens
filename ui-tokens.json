@@ -446,6 +446,17 @@
     "small": {
       "value": "4",
       "type": "borderRadius"
+    },
+    "screenPreview": {
+      "value": {
+        "x": "0",
+        "y": "8",
+        "blur": "250",
+        "spread": "0",
+        "color": "hsla({color.base.hue}, 40%, 40%, .16)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "$themes": []
