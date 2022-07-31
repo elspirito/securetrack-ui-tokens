@@ -446,6 +446,11 @@
     "small": {
       "value": "4",
       "type": "borderRadius"
+    },
+    "zzzzzz": {
+      "value": "10",
+      "type": "opacity",
+      "description": "test"
     }
   },
   "$themes": []
