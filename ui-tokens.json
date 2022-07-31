@@ -311,17 +311,6 @@
         }
       }
     },
-    "focus": {
-      "value": {
-        "x": "0",
-        "y": "0",
-        "blur": "0",
-        "spread": "2",
-        "color": "hsla({color.base.hue}, 80%, 80%, 1)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
     "text": {
       "title": {
         "h1": {
