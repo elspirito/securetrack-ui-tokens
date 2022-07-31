@@ -185,15 +185,15 @@
         },
         "textfield": {
           "default": {
-            "value": "{color.base.primary.8}",
+            "value": "{color.base.secondary.8}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.base.primary.16}",
+            "value": "{color.base.secondary.16}",
             "type": "color"
           },
-          "pressed": {
-            "value": "hsla({color.base.hue}, 24%, 96%, 1)",
+          "active": {
+            "value": "{color.base.secondary.8}",
             "type": "color"
           }
         },
