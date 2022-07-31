@@ -294,17 +294,7 @@
         "link": {
           "primary": {
             "default": {
-              "value": "{color.base.secondary.100}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "icon": {
-        "link": {
-          "primary": {
-            "default": {
-              "value": "{color.base.secondary.100}",
+              "value": "{color.base.primary.100}",
               "type": "color"
             }
           }
@@ -314,7 +304,7 @@
         "link": {
           "primary": {
             "default": {
-              "value": "{color.base.secondary.24}",
+              "value": "{color.base.primary.24}",
               "type": "color"
             }
           }
