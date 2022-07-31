@@ -351,20 +351,35 @@
         }
       },
       "baseText": {
-        "value": {
-          "fontFamily": "{fontFamily.inter}",
-          "fontSize": "13",
-          "lineHeight": "150%"
+        "regular": {
+          "value": {
+            "fontFamily": "{fontFamily.inter}",
+            "fontSize": "13",
+            "lineHeight": "150%",
+            "fontWeight": "{fontWeight.400}"
+          },
+          "type": "typography"
         },
-        "type": "typography"
+        "medium": {
+          "value": {
+            "fontFamily": "{fontFamily.inter}",
+            "fontSize": "13",
+            "lineHeight": "150%",
+            "fontWeight": "{fontWeight.500}"
+          },
+          "type": "typography"
+        }
       },
       "smallText": {
-        "value": {
-          "fontFamily": "{fontFamily.inter}",
-          "fontSize": "10.83",
-          "lineHeight": "140%"
-        },
-        "type": "typography"
+        "regular": {
+          "value": {
+            "fontFamily": "{fontFamily.inter}",
+            "fontSize": "10.83",
+            "lineHeight": "140%",
+            "fontWeight": "{fontWeight.400}"
+          },
+          "type": "typography"
+        }
       }
     },
     "fontFamily": {
