@@ -156,29 +156,29 @@
               "type": "color"
             },
             "disabled": {
-              "value": "hsla({color.base.hue}, 24%, 92%, 1)",
+              "value": "{color.base.secondary.8}",
               "type": "color"
             }
           },
           "secondary": {
             "default": {
-              "value": "hsla({color.base.hue}, 32%, 96%, 1)",
+              "value": "{color.base.secondary.4}",
               "type": "color"
             },
             "hover": {
-              "value": "hsla({color.base.hue}, 32%, 92%, 1)",
+              "value": "{color.base.secondary.8}",
               "type": "color"
             },
             "pressed": {
-              "value": "hsla({color.base.hue}, 32%, 88%, 1)",
+              "value": "{color.base.secondary.16}",
               "type": "color"
             },
             "focus": {
-              "value": "hsla({color.base.hue}, 32%, 96%, 1)",
+              "value": "{color.base.secondary.4}",
               "type": "color"
             },
             "disabled": {
-              "value": "hsla({color.base.hue}, 24%, 92%, 1)",
+              "value": "{color.base.secondary.8}",
               "type": "color"
             }
           }
