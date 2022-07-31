@@ -457,6 +457,10 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    },
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
     }
   },
   "$themes": []
