@@ -434,6 +434,18 @@
         },
         "type": "boxShadow"
       }
+    },
+    "large": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "medium": {
+      "value": "6",
+      "type": "borderRadius"
+    },
+    "small": {
+      "value": "4",
+      "type": "borderRadius"
     }
   },
   "$themes": []
