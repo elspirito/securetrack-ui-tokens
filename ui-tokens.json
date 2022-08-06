@@ -225,11 +225,11 @@
         },
         "textfield": {
           "default": {
-            "value": "{color.base.primary.8}",
+            "value": "{color.base.primary.16}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.base.primary.16}",
+            "value": "{color.base.primary.24}",
             "type": "color"
           },
           "active": {
@@ -511,17 +511,6 @@
     "small": {
       "value": "4",
       "type": "borderRadius"
-    },
-    "screenPreview": {
-      "value": {
-        "x": "0",
-        "y": "8",
-        "blur": "250",
-        "spread": "0",
-        "color": "hsla({color.hue.primary}, 40%, 40%, .16)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
     },
     "none": {
       "value": "0",
