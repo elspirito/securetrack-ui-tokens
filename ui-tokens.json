@@ -57,43 +57,43 @@
         },
         "primary": {
           "4": {
-            "value": "hsla({color.hue.primary}, 80%, 64%, .04)",
+            "value": "hsla({color.hue.primary}, 64%, 64%, .04)",
             "type": "color"
           },
           "8": {
-            "value": "hsla({color.hue.primary}, 80%, 64%, .08)",
+            "value": "hsla({color.hue.primary}, 64%, 64%, .08)",
             "type": "color"
           },
           "16": {
-            "value": "hsla({color.hue.primary}, 80%, 64%, .16)",
+            "value": "hsla({color.hue.primary}, 64%, 64%, .16)",
             "type": "color"
           },
           "24": {
-            "value": "hsla({color.hue.primary}, 80%, 64%, .24)",
+            "value": "hsla({color.hue.primary}, 64%, 64%, .24)",
             "type": "color"
           },
           "40": {
-            "value": "hsla({color.hue.primary}, 80%, 64%, .40)",
+            "value": "hsla({color.hue.primary}, 64%, 64%, .40)",
             "type": "color"
           },
           "48": {
-            "value": "hsla({color.hue.primary}, 80%, 64%, .48)",
+            "value": "hsla({color.hue.primary}, 64%, 64%, .48)",
             "type": "color"
           },
           "56": {
-            "value": "hsla({color.hue.primary}, 80%, 64%, .56)",
+            "value": "hsla({color.hue.primary}, 64%, 64%, .56)",
             "type": "color"
           },
           "64": {
-            "value": "hsla({color.hue.primary}, 80%, 64%, .64)",
+            "value": "hsla({color.hue.primary}, 64%, 64%, .64)",
             "type": "color"
           },
           "80": {
-            "value": "hsla({color.hue.primary}, 80%, 64%, .8)",
+            "value": "hsla({color.hue.primary}, 64%, 64%, .8)",
             "type": "color"
           },
           "100": {
-            "value": "hsla({color.hue.primary}, 80%, 56%, 1)",
+            "value": "hsla({color.hue.primary}, 64%, 56%, 1)",
             "type": "color"
           }
         },
