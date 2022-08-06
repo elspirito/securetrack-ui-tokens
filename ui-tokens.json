@@ -1,101 +1,103 @@
 {
   "st-global": {
     "color": {
-      "base": {
-        "hue": {
+      "hue": {
+        "primary": {
           "value": "220",
           "type": "color",
           "description": "HUE Value (hsla model)"
-        },
+        }
+      },
+      "base": {
         "white": {
-          "value": "hsla({color.base.hue}, 100%, 100%, 1)",
+          "value": "hsla({color.hue.primary}, 100%, 100%, 1)",
           "type": "color"
         },
         "background": {
-          "value": "hsla({color.base.hue}, 24%, 96%, 1)",
+          "value": "hsla({color.hue.primary}, 24%, 96%, 1)",
           "type": "color"
         },
         "primary": {
           "4": {
-            "value": "hsla({color.base.hue}, 100%, 64%, .04)",
+            "value": "hsla({color.hue.primary}, 100%, 64%, .04)",
             "type": "color"
           },
           "8": {
-            "value": "hsla({color.base.hue}, 100%, 64%, .08)",
+            "value": "hsla({color.hue.primary}, 100%, 64%, .08)",
             "type": "color"
           },
           "16": {
-            "value": "hsla({color.base.hue}, 100%, 64%, .16)",
+            "value": "hsla({color.hue.primary}, 100%, 64%, .16)",
             "type": "color"
           },
           "24": {
-            "value": "hsla({color.base.hue}, 100%, 64%, .24)",
+            "value": "hsla({color.hue.primary}, 100%, 64%, .24)",
             "type": "color"
           },
           "40": {
-            "value": "hsla({color.base.hue}, 100%, 64%, .40)",
+            "value": "hsla({color.hue.primary}, 100%, 64%, .40)",
             "type": "color"
           },
           "48": {
-            "value": "hsla({color.base.hue}, 100%, 64%, .48)",
+            "value": "hsla({color.hue.primary}, 100%, 64%, .48)",
             "type": "color"
           },
           "56": {
-            "value": "hsla({color.base.hue}, 100%, 64%, .56)",
+            "value": "hsla({color.hue.primary}, 100%, 64%, .56)",
             "type": "color"
           },
           "64": {
-            "value": "hsla({color.base.hue}, 100%, 64%, .64)",
+            "value": "hsla({color.hue.primary}, 100%, 64%, .64)",
             "type": "color"
           },
           "80": {
-            "value": "hsla({color.base.hue}, 100%, 64%, .8)",
+            "value": "hsla({color.hue.primary}, 100%, 64%, .8)",
             "type": "color"
           },
           "100": {
-            "value": "hsla({color.base.hue}, 80%, 56%, 1)",
+            "value": "hsla({color.hue.primary}, 80%, 56%, 1)",
             "type": "color"
           }
         },
         "secondary": {
           "4": {
-            "value": "hsla({color.base.hue}, 24%, 40%, .04)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, .04)",
             "type": "color"
           },
           "8": {
-            "value": "hsla({color.base.hue}, 24%, 40%, .08)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, .08)",
             "type": "color"
           },
           "16": {
-            "value": "hsla({color.base.hue}, 24%, 40%, .16)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, .16)",
             "type": "color"
           },
           "24": {
-            "value": "hsla({color.base.hue}, 24%, 40%, .24)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, .24)",
             "type": "color"
           },
           "40": {
-            "value": "hsla({color.base.hue}, 24%, 40%, .40)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, .40)",
             "type": "color"
           },
           "48": {
-            "value": "hsla({color.base.hue}, 24%, 40%, .48)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, .48)",
             "type": "color"
           },
           "56": {
-            "value": "hsla({color.base.hue}, 24%, 40%, .56)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, .56)",
             "type": "color"
           },
           "64": {
-            "value": "hsla({color.base.hue}, 24%, 40%, .64)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, .64)",
             "type": "color"
           },
           "80": {
-            "value": "hsla({color.base.hue}, 24%, 40%, .8)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, .8)",
             "type": "color"
           },
           "100": {
-            "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+            "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
             "type": "color"
           }
         }
@@ -140,19 +142,19 @@
         "button": {
           "primary": {
             "default": {
-              "value": "linear-gradient(75deg, hsla({color.base.hue}, 80%, 64%, 1) 0%, hsla({color.base.hue}, 80%, 56%, 1) 100%)",
+              "value": "linear-gradient(75deg, hsla({color.hue.primary}, 80%, 64%, 1) 0%, hsla({color.hue.primary}, 80%, 56%, 1) 100%)",
               "type": "color"
             },
             "hover": {
-              "value": "linear-gradient(75deg, hsla({color.base.hue}, 72%, 56%, 1) 0%, hsla({color.base.hue}, 72%, 48%, 1) 100%)",
+              "value": "linear-gradient(75deg, hsla({color.hue.primary}, 72%, 56%, 1) 0%, hsla({color.hue.primary}, 72%, 48%, 1) 100%)",
               "type": "color"
             },
             "pressed": {
-              "value": "linear-gradient(75deg, hsla({color.base.hue}, 72%, 48%, 1) 0%, hsla({color.base.hue}, 72%, 40%, 1) 100%)",
+              "value": "linear-gradient(75deg, hsla({color.hue.primary}, 72%, 48%, 1) 0%, hsla({color.hue.primary}, 72%, 40%, 1) 100%)",
               "type": "color"
             },
             "focus": {
-              "value": "linear-gradient(75deg, hsla({color.base.hue}, 80%, 64%, 1) 0%, hsla({color.base.hue}, 80%, 56%, 1) 100%)",
+              "value": "linear-gradient(75deg, hsla({color.hue.primary}, 80%, 64%, 1) 0%, hsla({color.hue.primary}, 80%, 56%, 1) 100%)",
               "type": "color"
             },
             "disabled": {
@@ -217,8 +219,26 @@
             "type": "color"
           },
           "hover": {
-            "value": "hsla({color.base.hue}, 16%, 98%, 1)",
+            "value": "hsla({color.hue.primary}, 16%, 98%, 1)",
             "type": "color"
+          }
+        },
+        "mapListItem": {
+          "default": {
+            "value": "{color.base.white}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "hsla({color.hue.primary}, 16%, 98%, 1)",
+            "type": "color"
+          }
+        },
+        "radio": {
+          "chips": {
+            "default": {
+              "value": "123",
+              "type": "color"
+            }
           }
         }
       },
@@ -234,60 +254,60 @@
         "button": {
           "primary": {
             "default": {
-              "value": "hsla({color.base.hue}, 96%, 96%, 1)",
+              "value": "hsla({color.hue.primary}, 96%, 96%, 1)",
               "type": "color"
             },
             "hover": {
-              "value": "hsla({color.base.hue}, 96%, 96%, 1)",
+              "value": "hsla({color.hue.primary}, 96%, 96%, 1)",
               "type": "color"
             },
             "pressed": {
-              "value": "hsla({color.base.hue}, 96%, 96%, 1)",
+              "value": "hsla({color.hue.primary}, 96%, 96%, 1)",
               "type": "color"
             },
             "focus": {
-              "value": "hsla({color.base.hue}, 96%, 96%, 1)",
+              "value": "hsla({color.hue.primary}, 96%, 96%, 1)",
               "type": "color"
             },
             "disabled": {
-              "value": "hsla({color.base.hue}, 16%, 80%, 1)",
+              "value": "hsla({color.hue.primary}, 16%, 80%, 1)",
               "type": "color"
             }
           },
           "secondary": {
             "default": {
-              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
               "type": "color"
             },
             "hover": {
-              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
               "type": "color"
             },
             "pressed": {
-              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
               "type": "color"
             },
             "focus": {
-              "value": "hsla({color.base.hue}, 24%, 40%, 1)",
+              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
               "type": "color"
             },
             "disabled": {
-              "value": "hsla({color.base.hue}, 16%, 80%, 1)",
+              "value": "hsla({color.hue.primary}, 16%, 80%, 1)",
               "type": "color"
             }
           }
         },
         "textfield": {
           "default": {
-            "value": "hsla({color.base.hue}, 24%, 64%, 1)",
+            "value": "hsla({color.hue.primary}, 24%, 64%, 1)",
             "type": "color"
           },
           "hover": {
-            "value": "hsla({color.base.hue}, 24%, 64%, 1)",
+            "value": "hsla({color.hue.primary}, 24%, 64%, 1)",
             "type": "color"
           },
           "active": {
-            "value": "hsla({color.base.hue}, 24%, 64%, 1)",
+            "value": "hsla({color.hue.primary}, 24%, 64%, 1)",
             "type": "color"
           }
         },
@@ -317,7 +337,7 @@
           "value": {
             "fontFamily": "{fontFamily.inter}",
             "fontSize": "26.96",
-            "lineHeight": "{lineHeight.110%}",
+            "lineHeight": "110%",
             "fontWeight": "{fontWeight.700}"
           },
           "type": "typography"
@@ -326,7 +346,7 @@
           "value": {
             "fontFamily": "{fontFamily.inter}",
             "fontSize": "22.46",
-            "lineHeight": "{lineHeight.120%}",
+            "lineHeight": "120%",
             "fontWeight": "{fontWeight.700}"
           },
           "type": "typography"
@@ -335,7 +355,7 @@
           "value": {
             "fontFamily": "{fontFamily.inter}",
             "fontSize": "18.72",
-            "lineHeight": "{lineHeight.130%}",
+            "lineHeight": "130%",
             "fontWeight": "{fontWeight.700}"
           },
           "type": "typography"
@@ -344,7 +364,7 @@
           "value": {
             "fontFamily": "{fontFamily.inter}",
             "fontSize": "15.6",
-            "lineHeight": "{lineHeight.140%}",
+            "lineHeight": "140%",
             "fontWeight": "{fontWeight.700}"
           },
           "type": "typography"
@@ -468,7 +488,7 @@
         "y": "8",
         "blur": "250",
         "spread": "0",
-        "color": "hsla({color.base.hue}, 40%, 40%, .16)",
+        "color": "hsla({color.hue.primary}, 40%, 40%, .16)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -476,17 +496,6 @@
     "none": {
       "value": "0",
       "type": "borderRadius"
-    },
-    "elevation-1": {
-      "value": {
-        "x": "0",
-        "y": "4",
-        "blur": "64",
-        "spread": "0",
-        "color": "{color.base.secondary.16}",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
     }
   },
   "$themes": []
