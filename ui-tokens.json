@@ -9,13 +9,51 @@
         }
       },
       "base": {
-        "white": {
-          "value": "hsla({color.hue.primary}, 100%, 100%, 1)",
-          "type": "color"
-        },
         "background": {
           "value": "hsla({color.hue.primary}, 24%, 96%, 1)",
           "type": "color"
+        },
+        "white": {
+          "4": {
+            "value": "hsla({color.hue.primary}, 100, 100, .04)",
+            "type": "color"
+          },
+          "8": {
+            "value": "hsla({color.hue.primary}, 100, 100, .08)",
+            "type": "color"
+          },
+          "16": {
+            "value": "hsla({color.hue.primary}, 100, 100, .16)",
+            "type": "color"
+          },
+          "24": {
+            "value": "hsla({color.hue.primary}, 100, 100, .24)",
+            "type": "color"
+          },
+          "40": {
+            "value": "hsla({color.hue.primary}, 100, 100, .4)",
+            "type": "color"
+          },
+          "48": {
+            "value": "hsla({color.hue.primary}, 100, 100, .48)",
+            "type": "color"
+          },
+          "56": {
+            "value": "hsla({color.hue.primary}, 100, 100, .56)",
+            "type": "color"
+          },
+          "64": {
+            "value": "hsla({color.hue.primary}, 100, 100, .64)",
+            "type": "color"
+          },
+          "80": {
+            "value": "hsla({color.hue.primary}, 100, 100, .8)",
+            "type": "color"
+          },
+          "100": {
+            "value": "hsla({color.hue.primary}, 100%, 100%, 1)",
+            "type": "color"
+          }
         },
         "primary": {
           "4": {
@@ -215,7 +253,7 @@
         },
         "tableRow": {
           "default": {
-            "value": "{color.base.white}",
+            "value": "{color.base.white.100}",
             "type": "color"
           },
           "hover": {
@@ -225,20 +263,12 @@
         },
         "mapListItem": {
           "default": {
-            "value": "{color.base.white}",
+            "value": "{color.base.white.100}",
             "type": "color"
           },
           "hover": {
             "value": "hsla({color.hue.primary}, 16%, 98%, 1)",
             "type": "color"
-          }
-        },
-        "radio": {
-          "chips": {
-            "default": {
-              "value": "123",
-              "type": "color"
-            }
           }
         }
       },
