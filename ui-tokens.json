@@ -476,6 +476,17 @@
     "none": {
       "value": "0",
       "type": "borderRadius"
+    },
+    "elevation-1": {
+      "value": {
+        "x": "0",
+        "y": "4",
+        "blur": "64",
+        "spread": "0",
+        "color": "{color.base.secondary.16}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "$themes": []
