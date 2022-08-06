@@ -519,6 +519,17 @@
         },
         "type": "boxShadow"
       }
+    },
+    "elevation-1": {
+      "value": {
+        "x": 0,
+        "y": 4,
+        "blur": 64,
+        "spread": 0,
+        "color": "hsla({color.hue.primary}, 40%, 40%, .24)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "$themes": []
