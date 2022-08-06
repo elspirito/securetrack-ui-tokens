@@ -57,39 +57,39 @@
         },
         "primary": {
           "4": {
-            "value": "hsla({color.hue.primary}, 100%, 64%, .04)",
+            "value": "hsla({color.hue.primary}, 80%, 64%, .04)",
             "type": "color"
           },
           "8": {
-            "value": "hsla({color.hue.primary}, 100%, 64%, .08)",
+            "value": "hsla({color.hue.primary}, 80%, 64%, .08)",
             "type": "color"
           },
           "16": {
-            "value": "hsla({color.hue.primary}, 100%, 64%, .16)",
+            "value": "hsla({color.hue.primary}, 80%, 64%, .16)",
             "type": "color"
           },
           "24": {
-            "value": "hsla({color.hue.primary}, 100%, 64%, .24)",
+            "value": "hsla({color.hue.primary}, 80%, 64%, .24)",
             "type": "color"
           },
           "40": {
-            "value": "hsla({color.hue.primary}, 100%, 64%, .40)",
+            "value": "hsla({color.hue.primary}, 80%, 64%, .40)",
             "type": "color"
           },
           "48": {
-            "value": "hsla({color.hue.primary}, 100%, 64%, .48)",
+            "value": "hsla({color.hue.primary}, 80%, 64%, .48)",
             "type": "color"
           },
           "56": {
-            "value": "hsla({color.hue.primary}, 100%, 64%, .56)",
+            "value": "hsla({color.hue.primary}, 80%, 64%, .56)",
             "type": "color"
           },
           "64": {
-            "value": "hsla({color.hue.primary}, 100%, 64%, .64)",
+            "value": "hsla({color.hue.primary}, 80%, 64%, .64)",
             "type": "color"
           },
           "80": {
-            "value": "hsla({color.hue.primary}, 100%, 64%, .8)",
+            "value": "hsla({color.hue.primary}, 80%, 64%, .8)",
             "type": "color"
           },
           "100": {
@@ -225,11 +225,11 @@
         },
         "textfield": {
           "default": {
-            "value": "{color.base.secondary.8}",
+            "value": "{color.base.primary.8}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.base.secondary.16}",
+            "value": "{color.base.primary.16}",
             "type": "color"
           },
           "active": {
