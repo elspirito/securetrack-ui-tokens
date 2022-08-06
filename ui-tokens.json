@@ -161,19 +161,19 @@
         },
         "warning": {
           "8": {
-            "value": "hsla(40, 100%, 48%, .08)",
+            "value": "hsla(45, 100%, 48%, .08)",
             "type": "color"
           },
           "24": {
-            "value": "hsla(40, 100%, 48%, .24)",
+            "value": "hsla(45, 100%, 48%, .24)",
             "type": "color"
           },
           "40": {
-            "value": "hsla(40, 100%, 48%, .40)",
+            "value": "hsla(45, 100%, 48%, .40)",
             "type": "color"
           },
           "100": {
-            "value": "hsla(40, 100%, 48%, 1)",
+            "value": "hsla(45, 100%, 48%, 1)",
             "type": "color"
           }
         },
@@ -245,15 +245,15 @@
         },
         "textfield": {
           "default": {
-            "value": "{color.base.primary.16}",
+            "value": "{color.base.secondary.8}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.base.primary.24}",
+            "value": "{color.base.primary.16}",
             "type": "color"
           },
           "active": {
-            "value": "{color.base.secondary.8}",
+            "value": "{color.base.secondary.4}",
             "type": "color"
           }
         },
@@ -287,7 +287,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "hsla({color.hue.primary}, 16%, 98%, 1)",
+            "value": "hsla({color.hue.primary}, 40%, 98%, 1)",
             "type": "color"
           }
         }
@@ -512,9 +512,9 @@
         "value": {
           "x": "0",
           "y": "2",
-          "blur": "4",
+          "blur": "8",
           "spread": "0",
-          "color": "{color.accent.warning.24}",
+          "color": "{color.accent.warning.40}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
