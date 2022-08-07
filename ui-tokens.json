@@ -335,6 +335,10 @@
           "value": "{color.base.secondary.64}",
           "type": "color"
         },
+        "disabled": {
+          "value": "{color.base.secondary.40}",
+          "type": "color"
+        },
         "button": {
           "primary": {
             "default": {
