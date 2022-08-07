@@ -417,6 +417,12 @@
             }
           }
         }
+      },
+      "elementFocus": {
+        "border": {
+          "value": "{color.base.primary.56}",
+          "type": "color"
+        }
       }
     },
     "font": {
