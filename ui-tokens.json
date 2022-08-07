@@ -161,19 +161,19 @@
         },
         "warning": {
           "8": {
-            "value": "hsla(45, 100%, 48%, .08)",
+            "value": "hsla(40, 100%, 48%, .08)",
             "type": "color"
           },
           "24": {
-            "value": "hsla(45, 100%, 48%, .24)",
+            "value": "hsla(40, 100%, 48%, .24)",
             "type": "color"
           },
           "40": {
-            "value": "hsla(45, 100%, 48%, .40)",
+            "value": "hsla(40, 100%, 48%, .40)",
             "type": "color"
           },
           "100": {
-            "value": "hsla(45, 100%, 48%, 1)",
+            "value": "hsla(40, 100%, 48%, 1)",
             "type": "color"
           }
         },
