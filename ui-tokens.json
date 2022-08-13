@@ -613,12 +613,12 @@
     "elevation": {
       "small": {
         "value": {
-          "color": "#0000000a",
-          "type": "dropShadow",
           "x": "0",
           "y": "4",
           "blur": "64",
-          "spread": "0"
+          "spread": "0",
+          "color": "{color.base.primary.16}",
+          "type": "dropShadow"
         },
         "type": "boxShadow"
       },
