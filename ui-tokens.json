@@ -615,9 +615,9 @@
         "value": {
           "x": "0",
           "y": "4",
-          "blur": "24",
+          "blur": "64",
           "spread": "0",
-          "color": "{color.base.primary.16}",
+          "color": "{color.base.primary.8}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -626,9 +626,9 @@
         "value": {
           "x": "0",
           "y": "4",
-          "blur": "40",
+          "blur": "64",
           "spread": "0",
-          "color": "{color.base.primary.16}",
+          "color": "hsla({color.hue.primary}, 40%, 40%, .16)",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -637,7 +637,7 @@
         "value": {
           "x": "0",
           "y": "4",
-          "blur": "80",
+          "blur": "64",
           "spread": "0",
           "color": "hsla({color.hue.primary}, 40%, 40%, .24)",
           "type": "dropShadow"
