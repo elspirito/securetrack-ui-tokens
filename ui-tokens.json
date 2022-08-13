@@ -301,6 +301,10 @@
           "hover": {
             "value": "hsla({color.hue.primary}, 24%, 96%, 1)",
             "type": "color"
+          },
+          "active": {
+            "value": "{color.base.primary.100}",
+            "type": "color"
           }
         },
         "switchToggle": {
