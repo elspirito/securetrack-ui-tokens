@@ -324,6 +324,12 @@
             "value": "{color.base.primary.40}",
             "type": "color"
           }
+        },
+        "tooltip": {
+          "default": {
+            "value": "{color.base.secondary.80}",
+            "type": "color"
+          }
         }
       },
       "text": {
