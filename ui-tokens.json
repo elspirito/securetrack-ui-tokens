@@ -644,6 +644,43 @@
         },
         "type": "boxShadow"
       }
+    },
+    "shadow": {
+      "tooltip": {
+        "default": {
+          "value": {
+            "x": "0",
+            "y": "8",
+            "blur": "24",
+            "spread": "0",
+            "color": "{color.base.secondary.24}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "warning": {
+          "value": {
+            "x": "0",
+            "y": "8",
+            "blur": "24",
+            "spread": "0",
+            "color": "{color.accent.warning.24}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "fail": {
+          "value": {
+            "x": "0",
+            "y": "8",
+            "blur": "24",
+            "spread": "0",
+            "color": "{color.accent.fail.24}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
     }
   },
   "$themes": []
