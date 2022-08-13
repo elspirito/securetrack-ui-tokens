@@ -202,7 +202,7 @@
             "value": "hsla(340, 92%, 48%, .8)",
             "type": "color"
           },
-          "100-copy": {
+          "100": {
             "value": "hsla(340, 92%, 48%, 1)",
             "type": "color"
           }
@@ -339,15 +339,15 @@
         },
         "tooltip": {
           "default": {
-            "value": "{color.base.secondary.80}",
+            "value": "{color.base.secondary.100}",
             "type": "color"
           },
           "warning": {
-            "value": "{color.base.secondary.80}",
+            "value": "{color.accent.warning.100}",
             "type": "color"
           },
           "fail": {
-            "value": "{color.base.secondary.80}",
+            "value": "{color.accent.fail.100}",
             "type": "color"
           }
         }
