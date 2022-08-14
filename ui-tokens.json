@@ -453,7 +453,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{color.base.secondary.24}",
+            "value": "{color.base.secondary.40}",
             "type": "color"
           }
         },
