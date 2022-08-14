@@ -267,6 +267,14 @@
           "active": {
             "value": "{color.base.secondary.4}",
             "type": "color"
+          },
+          "focus": {
+            "value": "{color.base.secondary.8}",
+            "type": "color"
+          },
+          "fail": {
+            "value": "{color.accent.fail.8}",
+            "type": "color"
           }
         },
         "checkbox": {
@@ -445,6 +453,20 @@
               "value": "{color.base.primary.24}",
               "type": "color"
             }
+          }
+        },
+        "textField": {
+          "active": {
+            "value": "{color.elementFocus.border}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{color.elementFocus.border}",
+            "type": "color"
+          },
+          "fail": {
+            "value": "{color.accent.fail.100}",
+            "type": "color"
           }
         }
       },
@@ -698,5 +720,10 @@
       }
     }
   },
-  "$themes": []
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "st-global"
+    ]
+  }
 }
