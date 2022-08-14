@@ -354,6 +354,10 @@
             "value": "{color.base.secondary.100}",
             "type": "color"
           },
+          "info": {
+            "value": "{color.base.primary.100}",
+            "type": "color"
+          },
           "warning": {
             "value": "{color.accent.warning.100}",
             "type": "color"
