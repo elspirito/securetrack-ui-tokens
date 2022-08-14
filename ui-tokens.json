@@ -424,16 +424,32 @@
           }
         },
         "textfield": {
-          "default": {
-            "value": "hsla({color.hue.primary}, 24%, 64%, 1)",
+          "default-empty": {
+            "value": "{color.base.secondary.40}",
+            "type": "color"
+          },
+          "default-filled": {
+            "value": "{color.base.secondary.100}",
             "type": "color"
           },
           "hover": {
-            "value": "hsla({color.hue.primary}, 24%, 64%, 1)",
+            "value": "{color.base.secondary.40}",
             "type": "color"
           },
           "active": {
-            "value": "hsla({color.hue.primary}, 24%, 64%, 1)",
+            "value": "{color.base.secondary.100}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{color.base.secondary.100}",
+            "type": "color"
+          },
+          "fail": {
+            "value": "{color.base.secondary.100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.base.secondary.24}",
             "type": "color"
           }
         },
@@ -474,6 +490,14 @@
         "border": {
           "value": "{color.base.primary.56}",
           "type": "color"
+        }
+      },
+      "icon": {
+        "textField": {
+          "disabled": {
+            "value": "{color.base.secondary.24}",
+            "type": "color"
+          }
         }
       }
     },
