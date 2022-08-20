@@ -253,6 +253,28 @@
               "value": "{color.base.secondary.8}",
               "type": "color"
             }
+          },
+          "tertiary": {
+            "default": {
+              "value": "{color.base.white.4}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.base.white.16}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.base.white.16}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{color.base.white.4}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.base.white.4}",
+              "type": "color"
+            }
           }
         },
         "textfield": {
@@ -405,6 +427,28 @@
             }
           },
           "secondary": {
+            "default": {
+              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "hover": {
+              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "focus": {
+              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "hsla({color.hue.primary}, 16%, 80%, 1)",
+              "type": "color"
+            }
+          },
+          "tertiary": {
             "default": {
               "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
               "type": "color"
