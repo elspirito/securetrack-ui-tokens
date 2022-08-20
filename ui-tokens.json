@@ -234,19 +234,19 @@
           },
           "secondary": {
             "default": {
-              "value": "{color.base.primary.4}",
-              "type": "color"
-            },
-            "hover": {
               "value": "{color.base.primary.8}",
               "type": "color"
             },
-            "pressed": {
+            "hover": {
               "value": "{color.base.primary.16}",
               "type": "color"
             },
+            "pressed": {
+              "value": "{color.base.primary.24}",
+              "type": "color"
+            },
             "focus": {
-              "value": "{color.base.primary.4}",
+              "value": "{color.base.primary.8}",
               "type": "color"
             },
             "disabled": {
@@ -261,7 +261,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.base.secondary.16}",
+            "value": "{color.base.secondary.24}",
             "type": "color"
           },
           "active": {
