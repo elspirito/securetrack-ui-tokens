@@ -99,43 +99,43 @@
         },
         "secondary": {
           "4": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, .04)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, .04)",
             "type": "color"
           },
           "8": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, .08)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, .08)",
             "type": "color"
           },
           "16": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, .16)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, .16)",
             "type": "color"
           },
           "24": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, .24)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, .24)",
             "type": "color"
           },
           "40": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, .40)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, .40)",
             "type": "color"
           },
           "48": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, .48)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, .48)",
             "type": "color"
           },
           "56": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, .56)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, .56)",
             "type": "color"
           },
           "64": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, .64)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, .64)",
             "type": "color"
           },
           "80": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, .8)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, .8)",
             "type": "color"
           },
           "100": {
-            "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
+            "value": "hsla({color.hue.primary}, 24%, 48%, 1)",
             "type": "color"
           }
         }
@@ -257,7 +257,7 @@
         },
         "textfield": {
           "default": {
-            "value": "{color.base.secondary.8}",
+            "value": "{color.base.secondary.16}",
             "type": "color"
           },
           "hover": {
