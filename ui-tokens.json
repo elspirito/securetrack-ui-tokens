@@ -287,11 +287,11 @@
         },
         "textfield": {
           "default": {
-            "value": "{color.base.secondary.16}",
+            "value": "{color.base.secondary.12}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.base.secondary.24}",
+            "value": "{color.base.secondary.16}",
             "type": "color"
           },
           "active": {
@@ -299,7 +299,7 @@
             "type": "color"
           },
           "focus": {
-            "value": "{color.base.secondary.8}",
+            "value": "{color.base.secondary.12}",
             "type": "color"
           },
           "fail": {
