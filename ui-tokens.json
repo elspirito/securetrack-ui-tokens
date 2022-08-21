@@ -22,6 +22,10 @@
             "value": "hsla({color.hue.primary}, 100%, 100%, .08)",
             "type": "color"
           },
+          "12": {
+            "value": "hsla({color.hue.primary}, 100%, 100%, .12)",
+            "type": "color"
+          },
           "16": {
             "value": "hsla({color.hue.primary}, 100%, 100%, .16)",
             "type": "color"
