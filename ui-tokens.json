@@ -64,6 +64,10 @@
             "value": "hsla({color.hue.primary}, 80%, 56%, .08)",
             "type": "color"
           },
+          "12": {
+            "value": "hsla({color.hue.primary}, 80%, 56%, .12)",
+            "type": "color"
+          },
           "16": {
             "value": "hsla({color.hue.primary}, 80%, 56%, .16)",
             "type": "color"
@@ -104,6 +108,10 @@
           },
           "8": {
             "value": "hsla({color.hue.primary}, 24%, 48%, .08)",
+            "type": "color"
+          },
+          "12": {
+            "value": "hsla({color.hue.primary}, 24%, 48%, .12)",
             "type": "color"
           },
           "16": {
