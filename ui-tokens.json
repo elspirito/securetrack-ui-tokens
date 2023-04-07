@@ -466,11 +466,11 @@
               "type": "color"
             },
             "hover": {
-              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
+              "value": "{color.base.primary.80}",
               "type": "color"
             },
             "pressed": {
-              "value": "hsla({color.hue.primary}, 24%, 40%, 1)",
+              "value": "{color.base.primary.100}",
               "type": "color"
             },
             "focus": {
